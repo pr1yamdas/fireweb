@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Light greenish background */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Dark green background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #45a049; /* Darker green background */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4CAF50; /* Dark green hover background */
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #707070; /* Dark green heading */
+    border-bottom: 2px solid #707070; /* Darker green border bottom */
+    padding-bottom: 5px;
+}
+
+.notification-panel {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #4CAF50; /* Dark green background */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1{
+    text-align: left;
+    margin: 20px 2px 0px 15px  ;
+}
